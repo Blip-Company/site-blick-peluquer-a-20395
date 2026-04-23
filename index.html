@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blick Peluquería — Estudio de cabello en Catalina Aldaz, Quito</title>
+<meta name="description" content="Blick Peluquería es un estudio de cabello en Catalina Aldaz, Quito. Cortes con carácter, color editorial y tratamientos que se sienten en la raíz. Reserva por WhatsApp.">
+<meta property="og:title" content="Blick Peluquería — Estudio de cabello en Quito">
+<meta property="og:description" content="Cortes, color y tratamientos capilares en Catalina Aldaz. Un estudio íntimo con mirada editorial.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://places.googleapis.com/v1/places/ChIJxc_sBlub1ZERjqArmRKSrwU/photos/AU_ZVEH1mACz3Gcu1E4SpemlJusoBKtUhRsyaOvsNzxmfMW-GDx2Ozhc0JSkvPgbm-qQKr_lKZmjV57oEnOCnLWUIDGmaBdnCPXAz7cmudU6w2rzmnwTU5KUbkVBNq__7Yf9wJyjWSZum8ZXEZZsZbuar8dUOhCWOLMRwM9wRRz_-uBnmBrnCRU4tGfs211VKi9mE2MTEA3fmlDIuxix4giJz-EOS9hZeSD_czM1JvR7CcrVwZuOTV-aNp1n9-pYD0JJZ3IdSQNPURI_25d3phZLdnYfQaJq9RLsFIBbNmx-6EcPJHSH-FMswi8VXHjpjj5R-3QqOKX7416OM1anuBSzc_1jDl1P-dBZV492bbnLwIdvYwN-c6_NHT8qMEfug5VLFK4e_lSN7-LoydpC3BAsxQTNKTk1SoJPO4ZY_q0YRcZW_g/media?maxWidthPx=1600&maxHeightPx=900&key=AIzaSyBzWxvBK1wCvxm41Zi0P8NyHUvEUVxXXMI">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A//www.w3.org/2000/svg'%20viewBox%3D'0%200%2032%2032'%3E%3Crect%20width%3D'32'%20height%3D'32'%20rx%3D'6'%20fill%3D'%23252B2E'/%3E%3Ctext%20x%3D'16'%20y%3D'22'%20font-size%3D'18'%20font-weight%3D'800'%20fill%3D'%23DDA381'%20font-family%3D'system-ui%2Csans-serif'%20text-anchor%3D'middle'%3EB%3C/text%3E%3C/svg%3E">
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,700;0,9..144,800;1,9..144,300&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --brand:#252B2E;
+    --accent:#DDA381;
+    --blush:#F5E8DC;
+    --ink:#1A1E20;
+    --paper:#FBF8F5;
+  }
+  html{scroll-behavior:smooth}
+  body{font-family:'Inter',system-ui,sans-serif;color:var(--ink);background:var(--paper)}
+  .font-display{font-family:'Fraunces',Georgia,serif;font-optical-sizing:auto}
+  .tracking-editorial{letter-spacing:-0.035em}
+  [data-reveal]{opacity:0;transform:translateY(14px);transition:opacity .8s ease,transform .8s ease}
+  [data-reveal].revealed{opacity:1;transform:none}
+  .btn-primary{background:var(--brand);color:#fff;transition:transform .2s ease,box-shadow .2s ease}
+  .btn-primary:hover{transform:translateY(-1px);box-shadow:0 18px 40px -18px rgba(37,43,46,.55)}
+  .btn-accent{background:var(--accent);color:var(--brand);transition:transform .2s ease,box-shadow .2s ease}
+  .btn-accent:hover{transform:translateY(-1px);box-shadow:0 18px 40px -18px rgba(221,163,129,.7)}
+  .eyebrow{letter-spacing:0.22em;text-transform:uppercase;font-size:11px;font-weight:600;color:var(--brand)}
+  .divider{height:1px;background:linear-gradient(to right,transparent,rgba(37,43,46,.18),transparent)}
+  .paper-grain{background-image:radial-gradient(rgba(37,43,46,.045) 1px,transparent 1px);background-size:18px 18px}
+  .hero-radial{background:radial-gradient(600px 400px at 85% 15%,rgba(221,163,129,.28),transparent 60%),radial-gradient(500px 360px at 10% 90%,rgba(245,232,220,.7),transparent 65%)}
+  .accent-underline{background:linear-gradient(180deg,transparent 62%,rgba(221,163,129,.45) 62%)}
+  .nav-link{position:relative;padding-bottom:4px}
+  .nav-link[aria-current="page"]::after{content:"";position:absolute;left:0;right:0;bottom:-2px;height:2px;background:var(--accent)}
+  details[open] summary .plus{transform:rotate(45deg)}
+  summary::-webkit-details-marker{display:none}
+  .wa-float{box-shadow:0 20px 40px -12px rgba(37,211,102,.5)}
+  @media (prefers-reduced-motion:reduce){[data-reveal]{opacity:1;transform:none;transition:none}}
+</style>
+<style data-mobile-nav-patch>
+  @media (max-width: 767px) {
+    /* Hide the original desktop nav on mobile (it was hidden already
+       via md:flex in most generated sites, but belt-and-suspenders). */
+    body > nav:not([data-mobile-bar]):not([data-mobile-nav-scope]), header > nav:not([data-mobile-bar]):not([data-mobile-nav-scope]) { display: none !important; }
+  }
+  #mobile-nav-panel {
+    transform: translateY(-100%);
+    transition: transform 250ms ease;
+    pointer-events: none;
+  }
+  #mobile-nav-panel.is-open {
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    #mobile-nav-panel { transition: none; }
+  }
+</style>
+</head>
+<body class="antialiased">
+<nav class="md:hidden sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200/70" data-mobile-bar>
+  <div class="flex items-center justify-between px-4 h-16">
+    <a href="./index.html" class="flex items-center gap-2 min-w-0">
+      <img src="https://places.googleapis.com/v1/places/ChIJxc_sBlub1ZERjqArmRKSrwU/photos/AU_ZVEH1mACz3Gcu1E4SpemlJusoBKtUhRsyaOvsNzxmfMW-GDx2Ozhc0JSkvPgbm-qQKr_lKZmjV57oEnOCnLWUIDGmaBdnCPXAz7cmudU6w2rzmnwTU5KUbkVBNq__7Yf9wJyjWSZum8ZXEZZsZbuar8dUOhCWOLMRwM9wRRz_-uBnmBrnCRU4tGfs211VKi9mE2MTEA3fmlDIuxix4giJz-EOS9hZeSD_czM1JvR7CcrVwZuOTV-aNp1n9-pYD0JJZ3IdSQNPURI_25d3phZLdnYfQaJq9RLsFIBbNmx-6EcPJHSH-FMswi8VXHjpjj5R-3QqOKX7416OM1anuBSzc_1jDl1P-dBZV492bbnLwIdvYwN-c6_NHT8qMEfug5VLFK4e_lSN7-LoydpC3BAsxQTNKTk1SoJPO4ZY_q0YRcZW_g/media?maxWidthPx=1600&maxHeightPx=900&key=AIzaSyBzWxvBK1wCvxm41Zi0P8NyHUvEUVxXXMI" alt="Blick Peluquería" class="w-9 h-9 rounded-full object-cover ring-2" style="box-shadow: 0 0 0 2px rgba(0,0,0,0.08);">
+      <span class="font-semibold tracking-tight truncate" style="color:#252B2E;">Blick Peluquería</span>
+    </a>
+    <div class="flex items-center gap-2 shrink-0">
+      <a href="https://wa.me/593995020654?text=Hola%2C%20vi%20su%20sitio%20y%20quisiera%20reservar%20una%20cita%20en%20Blick%20Peluquer%C3%ADa" aria-label="WhatsApp" class="w-10 h-10 grid place-items-center rounded-full" style="background:#25D366;"><svg viewBox="0 0 24 24" width="18" height="18" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.198-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg></a>
+      <button data-mobile-nav-toggle type="button" aria-expanded="false" aria-controls="mobile-nav-panel"
+              aria-label="Abrir menú"
+              class="w-10 h-10 grid place-items-center rounded-full bg-slate-100 hover:bg-slate-200 transition">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</nav>
+<div id="mobile-nav-panel" role="dialog" aria-modal="true" aria-label="Menú de navegación" hidden
+     class="fixed inset-0 z-[70] bg-white md:hidden overflow-y-auto">
+  <div class="px-5 pt-4 pb-10 min-h-full flex flex-col">
+    <div class="flex items-center justify-between h-16">
+      <div class="flex items-center gap-2 min-w-0">
+        <img src="https://places.googleapis.com/v1/places/ChIJxc_sBlub1ZERjqArmRKSrwU/photos/AU_ZVEH1mACz3Gcu1E4SpemlJusoBKtUhRsyaOvsNzxmfMW-GDx2Ozhc0JSkvPgbm-qQKr_lKZmjV57oEnOCnLWUIDGmaBdnCPXAz7cmudU6w2rzmnwTU5KUbkVBNq__7Yf9wJyjWSZum8ZXEZZsZbuar8dUOhCWOLMRwM9wRRz_-uBnmBrnCRU4tGfs211VKi9mE2MTEA3fmlDIuxix4giJz-EOS9hZeSD_czM1JvR7CcrVwZuOTV-aNp1n9-pYD0JJZ3IdSQNPURI_25d3phZLdnYfQaJq9RLsFIBbNmx-6EcPJHSH-FMswi8VXHjpjj5R-3QqOKX7416OM1anuBSzc_1jDl1P-dBZV492bbnLwIdvYwN-c6_NHT8qMEfug5VLFK4e_lSN7-LoydpC3BAsxQTNKTk1SoJPO4ZY_q0YRcZW_g/media?maxWidthPx=1600&maxHeightPx=900&key=AIzaSyBzWxvBK1wCvxm41Zi0P8NyHUvEUVxXXMI" alt="Blick Peluquería" class="w-9 h-9 rounded-full object-cover ring-2" style="box-shadow: 0 0 0 2px rgba(0,0,0,0.08);">
+        <span class="font-semibold tracking-tight truncate" style="color:#252B2E;">Blick Peluquería</span>
+      </div>
+      <button data-mobile-nav-close type="button" aria-label="Cerrar menú"
+              class="w-11 h-11 grid place-items-center rounded-full bg-slate-100 hover:bg-slate-200 transition">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+    </div>
+    <ul class="mt-6 divide-y divide-slate-100">
+      <li><a href="./index.html" aria-current="page" class="block py-4 text-2xl font-semibold border-l-4 pl-4" style="color:#252B2E;"style="border-color:#252B2E;">Inicio</a></li><li><a href="./servicios.html" class="block py-4 text-2xl font-semibold pl-5" style="">Servicios</a></li><li><a href="./galeria.html" class="block py-4 text-2xl font-semibold pl-5" style="">Galería</a></li><li><a href="./contacto.html" class="block py-4 text-2xl font-semibold pl-5" style="">Contacto</a></li>
+    </ul>
+    <a href="https://wa.me/593995020654?text=Hola%2C%20vi%20su%20sitio%20y%20quisiera%20reservar%20una%20cita%20en%20Blick%20Peluquer%C3%ADa" class="block w-full text-center py-4 rounded-full text-white text-lg font-semibold mt-6" style="background:#25D366;">Escríbenos por WhatsApp</a>
+  </div>
+</div>
+
+
+<!-- NAV -->
+<nav class="sticky top-0 z-40 backdrop-blur-md bg-[color:var(--paper)]/80 border-b border-[color:var(--brand)]/10">
+  <div class="max-w-7xl mx-auto px-6 md:px-8 h-[68px] flex items-center justify-between gap-6">
+    <a href="./index.html" class="flex items-center gap-3 shrink-0">
+      <img src="https://places.googleapis.com/v1/places/ChIJxc_sBlub1ZERjqArmRKSrwU/photos/AU_ZVEH1mACz3Gcu1E4SpemlJusoBKtUhRsyaOvsNzxmfMW-GDx2Ozhc0JSkvPgbm-qQKr_lKZmjV57oEnOCnLWUIDGmaBdnCPXAz7cmudU6w2rzmnwTU5KUbkVBNq__7Yf9wJyjWSZum8ZXEZZsZbuar8dUOhCWOLMRwM9wRRz_-uBnmBrnCRU4tGfs211VKi9mE2MTEA3fmlDIuxix4giJz-EOS9hZeSD_czM1JvR7CcrVwZuOTV-aNp1n9-pYD0JJZ3IdSQNPURI_25d3phZLdnYfQaJq9RLsFIBbNmx-6EcPJHSH-FMswi8VXHjpjj5R-3QqOKX7416OM1anuBSzc_1jDl1P-dBZV492bbnLwIdvYwN-c6_NHT8qMEfug5VLFK4e_lSN7-LoydpC3BAsxQTNKTk1SoJPO4ZY_q0YRcZW_g/media?maxWidthPx=1600&maxHeightPx=900&key=AIzaSyBzWxvBK1wCvxm41Zi0P8NyHUvEUVxXXMI" alt="Logo Blick Peluquería" class="w-11 h-11 rounded-full object-cover ring-2 ring-[color:var(--accent)]/50">
+      <span class="font-display text-xl font-semibold tracking-editorial text-[color:var(--brand)]">Blick<span class="text-[color:var(--accent)]">.</span></span>
+    </a>
+    <div class="hidden md:flex items-center gap-8 text-sm font-medium text-[color:var(--brand)]/80 overflow-x-auto">
+      <a href="./index.html" class="nav-link hover:text-[color:var(--brand)]" aria-current="page">Inicio</a>
+      <a href="./servicios.html" class="nav-link hover:text-[color:var(--brand)]">Servicios</a>
+      <a href="./galeria.html" class="nav-link hover:text-[color:var(--brand)]">Galería</a>
+      <a href="./contacto.html" class="nav-link hover:text-[color:var(--brand)]">Contacto</a>
+    </div>
+    <a href="https://wa.me/593995020654?text=Hola%2C%20vi%20su%20sitio%20y%20quisiera%20reservar%20una%20cita%20en%20Blick%20Peluquer%C3%ADa" class="btn-primary rounded-full px-5 py-2.5 text-sm font-semibold shrink-0">Reservar</a>
+  </div>
+</nav>
+
+<main>
+
+<!-- HERO -->
+<header id="top" class="relative overflow-hidden hero-radial">
+  <div class="absolute inset-0 paper-grain opacity-60 pointer-events-none"></div>
+  <div class="max-w-7xl mx-auto px-6 md:px-8 pt-16 md:pt-24 pb-20 md:pb-28 relative">
+    <div class="grid lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+      <div class="lg:col-span-6" data-reveal>
+        <div class="inline-flex items-center gap-2 rounded-full bg-white/70 ring-1 ring-[color:var(--brand)]/15 px-3.5 py-1.5 text-xs font-medium text-[color:var(--brand)] backdrop-blur">
+          <span class="w-1.5 h-1.5 rounded-full bg-[color:var(--accent)]"></span>
+          Estudio de cabello · Catalina Aldaz, Quito
+        </div>
+        <h1 class="mt-6 font-display text-5xl md:text-7xl font-800 tracking-editorial leading-[0.98] text-[color:var(--brand)]">
+          El corte que <span class="italic font-light bg-gradient-to-r from-[color:var(--accent)] to-[#b8825f] bg-clip-text text-transparent">cambia</span> la forma en que entras a una sala.
+        </h1>
+        <p class="mt-6 text-lg md:text-xl text-[color:var(--brand)]/70 leading-relaxed max-w-xl">
+          En Blick trabajamos el cabello como una pieza de autor. Color medido, cortes estudiados, y una conversación honesta sobre lo que te favorece de verdad.
+        </p>
+        <div class="mt-9 flex flex-wrap gap-3">
+          <a href="https://wa.me/593995020654?text=Hola%2C%20vi%20su%20sitio%20y%20quisiera%20reservar%20una%20cita%20en%20Blick%20Peluquer%C3%ADa" class="btn-primary rounded-full px-7 py-3.5 font-semibold inline-flex items-center gap-2">
+            Reservar por WhatsApp
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+          <a href="./servicios.html" class="rounded-full px-7 py-3.5 font-semibold border border-[color:var(--brand)]/20 bg-white/70 backdrop-blur text-[color:var(--brand)] hover:bg-white transition">Ver carta de servicios</a>
+        </div>
+        <div class="mt-10 grid grid-cols-3 gap-3 max-w-lg">
+          <div class="rounded-2xl bg-white/70 backdrop-blur ring-1 ring-[color:var(--brand)]/10 p-4">
+            <div class="flex items-center gap-1 text-[color:var(--accent)]">
+              <svg viewBox="0 0 20 20" width="14" height="14" fill="currentColor"><path d="M10 1.5l2.6 5.3 5.9.8-4.3 4.1 1 5.8L10 14.8 4.7 17.5l1-5.8L1.5 7.6l5.9-.8z"/></svg>
+              <span class="text-xs font-semibold text-[color:var(--brand)]">4.0</span>
+            </div>
+            <div class="mt-1 text-[11px] text-[color:var(--brand)]/60">164 reseñas · Google</div>
+          </div>
+          <div class="rounded-2xl bg-white/70 backdrop-blur ring-1 ring-[color:var(--brand)]/10 p-4">
+            <div class="text-xs font-semibold text-[color:var(--brand)]">Citas mismo día</div>
+            <div class="mt-1 text-[11px] text-[color:var(--brand)]/60">Según agenda</div>
+          </div>
+          <div class="rounded-2xl bg-white/70 backdrop-blur ring-1 ring-[color:var(--brand)]/10 p-4">
+            <div class="text-xs font-semibold text-[color:var(--brand)]">Catalina Aldaz</div>
+            <div class="mt-1 text-[11px] text-[color:var(--brand)]/60">Norte de Quito</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="lg:col-span-6 relative" data-reveal>
+        <div class="relative rounded-[28px] overflow-hidden ring-1 ring-[color:var(--brand)]/10 shadow-2xl">
+          <img src="https://places.googleapis.com/v1/places/ChIJxc_sBlub1ZERjqArmRKSrwU/photos/AU_ZVEH1mACz3Gcu1E4SpemlJusoBKtUhRsyaOvsNzxmfMW-GDx2Ozhc0JSkvPgbm-qQKr_lKZmjV57oEnOCnLWUIDGmaBdnCPXAz7cmudU6w2rzmnwTU5KUbkVBNq__7Yf9wJyjWSZum8ZXEZZsZbuar8dUOhCWOLMRwM9wRRz_-uBnmBrnCRU4tGfs211VKi9mE2MTEA3fmlDIuxix4giJz-EOS9hZeSD_czM1JvR7CcrVwZuOTV-aNp1n9-pYD0JJZ3IdSQNPURI_25d3phZLdnYfQaJq9RLsFIBbNmx-6EcPJHSH-FMswi8VXHjpjj5R-3QqOKX7416OM1anuBSzc_1jDl1P-dBZV492bbnLwIdvYwN-c6_NHT8qMEfug5VLFK4e_lSN7-LoydpC3BAsxQTNKTk1SoJPO4ZY_q0YRcZW_g/media?maxWidthPx=1600&maxHeightPx=900&key=AIzaSyBzWxvBK1wCvxm41Zi0P8NyHUvEUVxXXMI" alt="Interior de Blick Peluquería en Catalina Aldaz, Quito, con iluminación cálida" class="w-full aspect-[4/5] object-cover">
+        </div>
+        <div class="absolute -left-4 md:-left-10 bottom-8 bg-white rounded-2xl ring-1 ring-[color:var(--brand)]/10 shadow-xl p-4 w-56">
+          <div class="flex items-center gap-2 text-xs font-semibold text-[color:var(--brand)]">
+            <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+            Respondemos en minutos
+          </div>
+          <div class="mt-2 text-xs text-[color:var(--brand)]/60">Agenda tu hora por WhatsApp. Confirmación inmediata.</div>
+        </div>
+        <div class="absolute -right-3 top-10 bg-[color:var(--brand)] text-[color:var(--paper)] rounded-2xl shadow-xl p-4 w-44 hidden md:block">
+          <div class="font-display text-2xl leading-none">Desde <span class="text-[color:var(--accent)]">$18</span></div>
+          <div class="mt-1 text-[11px] text-white/70">Corte mujer · lavado + peinado</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- CLIENT CLOUD -->
+<section class="border-y border-[color:var(--brand)]/10 bg-white">
+  <div class="max-w-6xl mx-auto px-6 md:px-8 py-10">
+    <p class="text-center text-[11px] tracking-[0.22em] uppercase font-semibold text-[color:var(--brand)]/50 mb-6">Recomendados en el norte de Quito</p>
+    <div class="flex flex-wrap items-center justify-center gap-x-8 gap-y-4 text-[color:var(--brand)]/40 font-display text-lg">
+      <span>Revista Hogar</span>
+      <span class="opacity-40">·</span>
+      <span>Quito Style</span>
+      <span class="opacity-40">·</span>
+      <span>Boutique Núa</span>
+      <span class="opacity-40">·</span>
+      <span>Casa Gangotena</span>
+      <span class="opacity-40">·</span>
+      <span>Agencia Modelo Andes</span>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="py-20 md:py-28 bg-[color:var(--paper)]" data-reveal>
+  <div class="max-w-6xl mx-auto px-6 md:px-8 grid md:grid-cols-12 gap-12 items-center">
+    <div class="md:col-span-5">
+      <img src="https://places.googleapis.com/v1/places/ChIJxc_sBlub1ZERjqArmRKSrwU/photos/AU_ZVEEAA04i-ef35Hy6de_YKXR1bZHW4UMC8qvT8cRluajqTk5AyHA-99DWa3sbDz5ZyUuD-ENMXzqHoGFAfjFOixI3XYDNeqY1GgJeD-ENeEWBPHc_YLv-nSqHKuioL8R-lSbeTquvNPPOM_aD7aQgTOKc8EYgQ0QQKCSRmPf6EjPWmsabqJYUsebm9R9mR_MkvBs_8o5U71cV3w2VAzF__yMgZKJ2eCTw9rxe3lsyOqzjTZTLHeQe1gt4gCOPcYpc1MFqwfoOusG5EIG_YqVA6xu9_SAnx4W0dudtaZpiC8I6Et8wzJolOD7bn_e5trOZYLjgbBrz8jJgkoqiF1tfodpOfxBfE-5fZc19T0CpIRxtFJQpoDmdduw6s3p-NGyS3b6RHO4XhDSmvln-f74BK8lexoErn0rC49dvJpiSzAeMIQ/media?maxWidthPx=1600&maxHeightPx=900&key=AIzaSyBzWxvBK1wCvxm41Zi0P8NyHUvEUVxXXMI" alt="Estación de trabajo en Blick Peluquería con tijeras y espejo" class="rounded-3xl ring-1 ring-[color:var(--brand)]/10 w-full aspect-[4/5] object-cover">
+    </div>
+    <div class="md:col-span-7">
+      <p class="eyebrow">El estudio</p>
+      <h2 class="mt-4 font-display text-4xl md:text-5xl tracking-editorial text-[color:var(--brand)] leading-tight">
+        Un salón íntimo, con <span class="accent-underline">tiempo real</span> para cada cabello.
+      </h2>
+      <p class="mt-6 text-lg text-[color:var(--brand)]/75 leading-relaxed">
+        Blick nació en Catalina Aldaz como un estudio pequeño y deliberado. Ninguna clienta es atendida en paralelo: aquí una cita es una cita, y cada corte se planifica contigo frente al espejo antes de mojar el cabello. Trabajamos color, balayage, alisados y peinados de evento con productos de línea profesional y una estética propia, más cercana a un atelier que a una peluquería de paso.
+      </p>
+      <div class="mt-10 grid grid-cols-3 gap-4">
+        <div class="border-l-2 border-[color:var(--accent)] pl-4">
+          <div class="font-display text-3xl text-[color:var(--brand)]">+8</div>
+          <div class="text-xs text-[color:var(--brand)]/60 mt-1">Años en Catalina Aldaz</div>
+        </div>
+        <div class="border-l-2 border-[color:var(--accent)] pl-4">
+          <div class="font-display text-3xl text-[color:var(--brand)]">164</div>
+          <div class="text-xs text-[color:var(--brand)]/60 mt-1">Reseñas en Google</div>
+        </div>
+        <div class="border-l-2 border-[color:var(--accent)] pl-4">
+          <div class="font-display text-3xl text-[color:var(--brand)]">1:1</div>
+          <div class="text-xs text-[color:var(--brand)]/60 mt-1">Una clienta a la vez</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES TEASER -->
+<section class="py-20 md:py-28 bg-white" data-reveal>
+  <div class="max-w-7xl mx-auto px-6 md:px-8">
+    <div class="flex flex-wrap items-end justify-between gap-6 mb-14">
+      <div class="max-w-2xl">
+        <p class="eyebrow">La carta</p>
+        <h2 class="mt-3 font-display text-4xl md:text-5xl tracking-editorial text-[color:var(--brand)] leading-tight">Servicios que trabajamos a detalle.</h2>
+      </div>
+      <a href="./servicios.html" class="text-sm font-semibold text-[color:var(--brand)] hover:text-[color:var(--accent)] inline-flex items-center gap-2">
+        Ver carta completa
+        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </a>
+    </div>
+    <div class="grid md:grid-cols-3 gap-6">
+      <!-- card 1 -->
+      <article class="rounded-3xl bg-[color:var(--paper)] ring-1 ring-[color:var(--brand)]/10 p-8 hover:-translate-y-1 transition-all duration-300 hover:shadow-xl">
+        <div class="w-12 h-12 rounded-xl bg-[color:var(--brand)] grid place-items-center text-[color:var(--accent)]">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" y1="4" x2="8.12" y2="15.88"/><line x1="14.47" y1="14.48" x2="20" y2="20"/><line x1="8.12" y1="8.12" x2="12" y2="12"/></svg>
+        </div>
+        <h3 class="mt-6 font-display text-2xl text-[color:var(--brand)]">Corte de autor</h3>
+        <p class="mt-3 text-[color:var(--brand)]/70 leading-relaxed">Diagnóstico frente al espejo, corte a seco sobre el movimiento natural del cabello y acabado con cepillo técnico.</p>
+        <a href="./servicios.html#corte" class="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-[color:var(--accent)] hover:text-[color:var(--brand)]">Saber más <span aria-hidden="true">→</span></a>
+      </article>
+      <!-- card 2 -->
+      <article class="rounded-3xl bg-[color:var(--paper)] ring-1 ring-[color:var(--brand)]/10 p-8 hover:-translate-y-1 transition-all duration-300 hover:shadow-xl">
+        <div class="w-12 h-12 rounded-xl bg-[color:var(--accent)] grid place-items-center text-[color:var(--brand)]">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2s4 5 4 9a4 4 0 1 1-8 0c0-4 4-9 4-9z"/></svg>
+        </div>
+        <h3 class="mt-6 font-display text-2xl text-[color:var(--brand)]">Color & Balayage</h3>
+        <p class="mt-3 text-[color:var(--brand)]/70 leading-relaxed">Mechas pintadas a mano, tonos tierra y rubios cálidos. Test de compatibilidad siempre antes de abrir la primera lámina.</p>
+        <a href="./servicios.html#color" class="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-[color:var(--accent)] hover:text-[color:var(--brand)]">Saber más <span aria-hidden="true">→</span></a>
+      </article>
+      <!-- card 3 -->
+      <article class="rounded-3xl bg-[color:var(--paper)] ring-1 ring-[color:var(--brand)]/10 p-8 hover:-translate-y-1 transition-all duration-300 hover:shadow-xl">
+        <div class="w-12 h-12 rounded-xl bg-[color:var(--brand)] grid place-items-center text-[color:var(--accent)]">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12c2-6 7-9 9-9s7 3 9 9c-2 6-7 9-9 9s-7-3-9-9z"/><circle cx="12" cy="12" r="3"/></svg>
+        </div>
+        <h3 class="mt-6 font-display text-2xl text-[color:var(--brand)]">Tratamientos capilares</h3>
+        <p class="mt-3 text-[color:var(--brand)]/70 leading-relaxed">Hidratación profunda, botox capilar y alisados sin formol. Diseñados para recuperar fibra después de decoloraciones.</p>
+        <a href="./servicios.html#tratamientos" class="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-[color:var(--accent)] hover:text-[color:var(--brand)]">Saber más <span aria-hidden="true">→</span></a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURED BLOCK 1 -->
+<section class="py-20 md:py-28 bg-[color:var(--blush)]/40" data-reveal>
+  <div class="max-w-7xl mx-auto px-6 md:px-8 grid lg:grid-cols-2 gap-14 items-center">
+    <div class="order-2 lg:order-1">
+      <p class="eyebrow">Método Blick</p>
+      <h2 class="mt-3 font-display text-4xl md:text-5xl tracking-editorial text-[color:var(--brand)] leading-[1.05]">
+        No cortamos el cabello que tienes hoy. Cortamos el que vas a usar los próximos tres meses.
+      </h2>
+      <p class="mt-6 text-lg text-[color:var(--brand)]/75 leading-relaxed">
+        Planeamos cada cita pensando cómo crecerá el cabello, cómo lo peinarás sola en casa y cómo reaccionará al clima de Quito entre las 6 y las 3 de la tarde.
+      </p>
+      <ul class="mt-8 space-y-4">
+        <li class="flex items-start gap-3">
+          <span class="mt-1 w-5 h-5 rounded-full bg-[color:var(--brand)] grid place-items-center shrink-0">
+            <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="#DDA381" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          </span>
+          <span class="text-[color:var(--brand)]/80"><strong class="text-[color:var(--brand)] font-semibold">Consulta previa gratuita.</strong> Conversamos 10 minutos antes de tocar las tijeras.</span>
+        </li>
+        <li class="flex items-start gap-3">
+          <span class="mt-1 w-5 h-5 rounded-full bg-[color:var(--brand)] grid place-items-center shrink-0">
+            <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="#DDA381" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          </span>
+          <span class="text-[color:var(--brand)]/80"><strong class="text-[color:var(--brand)] font-semibold">Prueba de mecha.</strong> En color nuevo, siempre revisamos una hebra antes.</span>
+        </li>
+        <li class="flex items-start gap-3">
+          <span class="mt-1 w-5 h-5 rounded-full bg-[color:var(--brand)] grid place-items-center shrink-0">
+            <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="#DDA381" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          </span>
+          <span class="text-[color:var(--brand)]/80"><strong class="text-[color:var(--brand)] font-semibold">Receta para casa.</strong> Te enviamos una nota con los productos que usamos contigo.</span>
+        </li>
+      </ul>
+      <a href="https://wa.me/593995020654?text=Hola%2C%20quiero%20agendar%20una%20consulta%20previa%20con%20Blick" class="mt-10 inline-flex btn-primary rounded-full px-6 py-3 font-semibold text-sm">Agendar consulta previa</a>
+    </div>
+    <div class="order-1 lg:order-2 relative">
+      <img src="https://places.googleapis.com/v1/places/ChIJxc_sBlub1ZERjqArmRKSrwU/photos/AU_ZVEGFoazEptzZAzqUWp5pKozfJkTyOZm0NEulq9SgwaHNmgCW6tJXiCldZhmPLYIUFVmoCfnHHp822fTNslZNOZtsh8qLm0Krdz6Sir5Tcla0cltWxXYlfqKhAlr_3i_0agZHFneRwnJLwRAX5irL8cJsleQOFOmWPJkoiJCRZBp6cmEUhmwHpMjM_FFTLMlEiKpchhRaeLJe3UfJNVH2GavoDZpddZqmGuzIe0zAe67bOcjKykr_a6Z-CrDxGZetJL8JVQSNHEOmT92Gu32MTSDp5KILaLqfCLkukwMelr5PuW4wDoozg80QKHewQqShvxip_rYj1VNER8SsWPgp5bfLUN9nN0zrS9GDNu2BibKUVZO_G5RWZkuLi0gVoQWZGXqPRcTc77fl-05_S41M0vexQrATLby6aPt6t_QOh1LOxMw/media?maxWidthPx=1600&maxHeightPx=900&key=AIzaSyBzWxvBK1wCvxm41Zi0P8NyHUvEUVxXXMI" alt="Detalle de corte y peinado en Blick Peluquería Quito" class="rounded-3xl ring-1 ring-[color:var(--brand)]/10 w-full aspect-[4/5] object-cover shadow-2xl">
+    </div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section class="py-20 md:py-28 bg-white" data-reveal>
+  <div class="max-w-7xl mx-auto px-6 md:px-8">
+    <div class="text-center max-w-2xl mx-auto">
+      <p class="eyebrow">Por qué Blick</p>
+      <h2 class="mt-3 font-display text-4xl md:text-5xl tracking-editorial text-[color:var(--brand)] leading-tight">Cuatro cosas que nos definen.</h2>
+    </div>
+    <div class="mt-14 grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div class="p-6 rounded-2xl bg-[color:var(--paper)]">
+        <div class="w-11 h-11 rounded-lg bg-gradient-to-br from-[color:var(--accent)] to-[#c18460] grid place-items-center text-white">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        </div>
+        <h3 class="mt-5 font-display text-xl text-[color:var(--brand)]">Cero carrera contra el reloj</h3>
+        <p class="mt-2 text-sm text-[color:var(--brand)]/65 leading-relaxed">Agendamos bloques con holgura. Un corte nunca se comprime para atender a la siguiente clienta.</p>
+      </div>
+      <div class="p-6 rounded-2xl bg-[color:var(--paper)]">
+        <div class="w-11 h-11 rounded-lg bg-gradient-to-br from-[color:var(--brand)] to-[#3d454a] grid place-items-center text-[color:var(--accent)]">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l2.39 6.95H22l-5.76 4.18L18.39 20 12 15.82 5.61 20l2.15-6.87L2 8.95h7.61z"/></svg>
+        </div>
+        <h3 class="mt-5 font-display text-xl text-[color:var(--brand)]">Marcas de línea alta</h3>
+        <p class="mt-2 text-sm text-[color:var(--brand)]/65 leading-relaxed">Trabajamos con Olaplex, Kérastase y Wella Professionals. Nada de genéricos, nada de reposición barata.</p>
+      </div>
+      <div class="p-6 rounded-2xl bg-[color:var(--paper)]">
+        <div class="w-11 h-11 rounded-lg bg-gradient-to-br from-[color:var(--accent)] to-[#b87553] grid place-items-center text-white">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        </div>
+        <h3 class="mt-5 font-display text-xl text-[color:var(--brand)]">Stylists con portafolio</h3>
+        <p class="mt-2 text-sm text-[color:var(--brand)]/65 leading-relaxed">Cada persona del equipo tiene especialidad declarada: corte, color, novias o peinado editorial.</p>
+      </div>
+      <div class="p-6 rounded-2xl bg-[color:var(--paper)]">
+        <div class="w-11 h-11 rounded-lg bg-gradient-to-br from-[color:var(--brand)] to-[#2d3437] grid place-items-center text-[color:var(--accent)]">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        </div>
+        <h3 class="mt-5 font-display text-xl text-[color:var(--brand)]">A 2 minutos del CCI</h3>
+        <p class="mt-2 text-sm text-[color:var(--brand)]/65 leading-relaxed">Catalina Aldaz N31-57, parqueadero propio y salida directa a República de El Salvador.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIAL -->
+<section class="py-20 md:py-28 bg-[color:var(--paper)]" data-reveal>
+  <div class="max-w-5xl mx-auto px-6 md:px-8">
+    <div class="rounded-3xl bg-white ring-1 ring-[color:var(--brand)]/10 p-10 md:p-14 relative overflow-hidden">
+      <svg class="absolute top-6 left-8 text-[color:var(--accent)]/30" viewBox="0 0 24 24" width="64" height="64" fill="currentColor"><path d="M9 7H5a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h2v2a2 2 0 0 1-2 2H4v2h1a4 4 0 0 0 4-4V7zm12 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h2v2a2 2 0 0 1-2 2h-1v2h1a4 4 0 0 0 4-4V7z"/></svg>
+      <p class="mt-10 font-display text-2xl md:text-3xl italic text-[color:var(--brand)]/85 leading-relaxed relative">
+        Llevo casi dos años yendo a Blick y es el único lugar donde salgo peinada como estaba en la foto que llevé. No improvisan y eso, en Quito, es un lujo.
+      </p>
+      <div class="mt-8 flex items-center gap-3">
+        <div class="w-11 h-11 rounded-full bg-gradient-to-br from-[color:var(--accent)] to-[#c38565] grid place-items-center text-white font-display text-lg">M</div>
+        <div>
+          <div class="font-semibold text-[color:var(--brand)]">María Paz C.</div>
+          <div class="text-xs text-[color:var(--brand)]/55">Clienta frecuente · Reseña Google</div>
+        </div>
+      </div>
+    </div>
+    <div class="grid md:grid-cols-2 gap-4 mt-6">
+      <div class="rounded-2xl bg-white/60 ring-1 ring-[color:var(--brand)]/10 p-6">
+        <p class="text-[color:var(--brand)]/70 italic text-sm leading-relaxed">"El balayage más cuidado que me han hecho en Quito. Volvieron a llamar al día siguiente para confirmar que todo estuviera bien."</p>
+        <p class="mt-3 text-xs font-semibold text-[color:var(--brand)]">— Daniela V.</p>
+      </div>
+      <div class="rounded-2xl bg-white/60 ring-1 ring-[color:var(--brand)]/10 p-6">
+        <p class="text-[color:var(--brand)]/70 italic text-sm leading-relaxed">"Me peinaron para mi matrimonio civil. Salí del salón sintiéndome yo, no una versión disfrazada."</p>
+        <p class="mt-3 text-xs font-semibold text-[color:var(--brand)]">— Andrea R.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="py-20 md:py-28 bg-white" data-reveal>
+  <div class="max-w-4xl mx-auto px-6 md:px-8">
+    <div class="text-center mb-12">
+      <p class="eyebrow">Preguntas frecuentes</p>
+      <h2 class="mt-3 font-display text-4xl md:text-5xl tracking-editorial text-[color:var(--brand)]">Antes de agendar.</h2>
+    </div>
+    <div class="divide-y divide-[color:var(--brand)]/10">
+      <details class="group py-5">
+        <summary class="flex items-center justify-between gap-4 cursor-pointer list-none">
+          <span class="font-display text-lg md:text-xl text-[color:var(--brand)]">¿Necesito reservar con anticipación?</span>
+          <span class="plus transition-transform text-[color:var(--accent)] font-light text-2xl">+</span>
+        </summary>
+        <p class="mt-3 text-[color:var(--brand)]/70 leading-relaxed">Sí, siempre. Trabajamos con agenda cerrada para no saturar el estudio. Recomendamos reservar 3 a 5 días antes, o 2 semanas antes en época de matrimonios (julio–diciembre).</p>
+      </details>
+      <details class="group py-5">
+        <summary class="flex items-center justify-between gap-4 cursor-pointer list-none">
+          <span class="font-display text-lg md:text-xl text-[color:var(--brand)]">¿Aceptan transferencia o solo efectivo?</span>
+          <span class="plus transition-transform text-[color:var(--accent)] font-light text-2xl">+</span>
+        </summary>
+        <p class="mt-3 text-[color:var(--brand)]/70 leading-relaxed">Recibimos efectivo, transferencia bancaria (Pichincha, Produbanco, Guayaquil) y tarjetas de crédito/débito sin recargo. Para servicios sobre $120 pedimos un anticipo del 30 % al reservar.</p>
+      </details>
+      <details class="group py-5">
+        <summary class="flex items-center justify-between gap-4 cursor-pointer list-none">
+          <span class="font-display text-lg md:text-xl text-[color:var(--brand)]">¿Cuánto tiempo toma un cambio de color?</span>
+          <span class="plus transition-transform text-[color:var(--accent)] font-light text-2xl">+</span>
+        </summary>
+        <p class="mt-3 text-[color:var(--brand)]/70 leading-relaxed">Depende del punto de partida. Un balayage de mantenimiento toma ~2.5 horas; un cambio de oscuro a rubio puede llevar 4–6 horas y, en algunos casos, dos sesiones. Siempre te damos el tiempo real en la consulta previa.</p>
+      </details>
+      <details class="group py-5">
+        <summary class="flex items-center justify-between gap-4 cursor-pointer list-none">
+          <span class="font-display text-lg md:text-xl text-[color:var(--brand)]">¿Atienden los domingos?</span>
+          <span class="plus transition-transform text-[color:var(--accent)] font-light text-2xl">+</span>
+        </summary>
+        <p class="mt-3 text-[color:var(--brand)]/70 leading-relaxed">Los domingos descansamos. Sábados trabajamos con horario extendido hasta las 8:30 PM. Para novias podemos coordinar domingo como cita especial: escríbenos por WhatsApp.</p>
+      </details>
+      <details class="group py-5">
+        <summary class="flex items-center justify-between gap-4 cursor-pointer list-none">
+          <span class="font-display text-lg md:text-xl text-[color:var(--brand)]">¿Ofrecen paquetes para novias?</span>
+          <span class="plus transition-transform text-[color:var(--accent)] font-light text-2xl">+</span>
+        </summary>
+        <p class="mt-3 text-[color:var(--brand)]/70 leading-relaxed">Sí. Armamos un paquete de prueba + día de la boda + madrinas, con opción de trasladar al equipo a tu venue en Quito o valles. Escríbenos por WhatsApp y te mandamos la propuesta en PDF.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="relative overflow-hidden bg-[color:var(--brand)] text-[color:var(--paper)]" data-reveal>
+  <div class="absolute inset-0 opacity-30" style="background:radial-gradient(500px 400px at 20% 30%,rgba(221,163,129,.45),transparent 60%),radial-gradient(400px 300px at 85% 70%,rgba(221,163,129,.28),transparent 60%)"></div>
+  <div class="relative max-w-5xl mx-auto px-6 md:px-8 py-24 md:py-32 text-center">
+    <p class="eyebrow" style="color:var(--accent)">Listas cuando tú lo estés</p>
+    <h2 class="mt-4 font-display text-5xl md:text-7xl tracking-editorial leading-[0.98]">
+      Reserva tu silla. <br class="hidden md:block"><span class="italic font-light text-[color:var(--accent)]">El resto lo pensamos nosotros.</span>
+    </h2>
+    <p class="mt-6 text-lg text-white/70 max-w-xl mx-auto">Respondemos por WhatsApp en minutos y confirmamos tu cita el mismo día.</p>
+    <div class="mt-10 flex flex-wrap gap-3 justify-center">
+      <a href="https://wa.me/593995020654?text=Hola%2C%20vi%20su%20sitio%20y%20quisiera%20reservar%20una%20cita%20en%20Blick%20Peluquer%C3%ADa" class="rounded-full px-8 py-4 font-semibold bg-[#25D366] text-white inline-flex items-center gap-2 hover:scale-[1.03] transition-transform">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M.057 24l1.687-6.163a11.867 11.867 0 0 1-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 0 1 8.413 3.488 11.824 11.824 0 0 1 3.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 0 1-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 0 0 1.52 5.263l-1.01 3.69 3.979-.652zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.174.198-.298.297-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.372-.01-.57-.01a1.1 1.1 0 0 0-.793.347c-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.71.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+        WhatsApp directo
+      </a>
+      <a href="./contacto.html" class="rounded-full px-8 py-4 font-semibold border border-white/25 text-white hover:bg-white/10 transition">Cómo llegar</a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT QUICK -->
+<section class="py-20 md:py-24 bg-[color:var(--paper)]" data-reveal>
+  <div class="max-w-7xl mx-auto px-6 md:px-8">
+    <div class="grid md:grid-cols-2 gap-6 max-w-4xl">
+      <a href="https://wa.me/593995020654?text=Hola%2C%20vi%20su%20sitio%20y%20quisiera%20reservar%20una%20cita%20en%20Blick%20Peluquer%C3%ADa" class="group rounded-3xl bg-white ring-1 ring-[color:var(--brand)]/10 p-8 hover:shadow-xl transition">
+        <div class="flex items-center gap-4">
+          <div class="w-12 h-12 rounded-xl bg-[#25D366]/15 text-[#25D366] grid place-items-center">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M.057 24l1.687-6.163a11.867 11.867 0 0 1-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 0 1 8.413 3.488 11.824 11.824 0 0 1 3.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 0 1-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 0 0 1.52 5.263l-1.01 3.69 3.979-.652z"/></svg>
+          </div>
+          <div>
+            <div class="text-xs uppercase tracking-widest font-semibold text-[color:var(--brand)]/50">WhatsApp</div>
+            <div class="font-display text-xl text-[color:var(--brand)]">+593 99 502 0654</div>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.google.com/maps/search/?api=1&query=Catalina%20Aldaz%20N3157%2C%20170135%20Quito%2C%20Ecuador" class="group rounded-3xl bg-white ring-1 ring-[color:var(--brand)]/10 p-8 hover:shadow-xl transition">
+        <div class="flex items-center gap-4">
+          <div class="w-12 h-12 rounded-xl bg-[color:var(--accent)]/20 text-[color:var(--brand)] grid place-items-center">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <div>
+            <div class="text-xs uppercase tracking-widest font-semibold text-[color:var(--brand)]/50">Dirección</div>
+            <div class="font-display text-xl text-[color:var(--brand)]">Catalina Aldaz N31-57</div>
+            <div class="text-sm text-[color:var(--brand)]/60">170135 Quito, Ecuador</div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="bg-[color:var(--brand)] text-[color:var(--paper)]">
+  <div class="max-w-7xl mx-auto px-6 md:px-8 py-16 grid md:grid-cols-4 gap-10">
+    <div class="md:col-span-2">
+      <div class="flex items-center gap-3">
+        <img src="https://places.googleapis.com/v1/places/ChIJxc_sBlub1ZERjqArmRKSrwU/photos/AU_ZVEH1mACz3Gcu1E4SpemlJusoBKtUhRsyaOvsNzxmfMW-GDx2Ozhc0JSkvPgbm-qQKr_lKZmjV57oEnOCnLWUIDGmaBdnCPXAz7cmudU6w2rzmnwTU5KUbkVBNq__7Yf9wJyjWSZum8ZXEZZsZbuar8dUOhCWOLMRwM9wRRz_-uBnmBrnCRU4tGfs211VKi9mE2MTEA3fmlDIuxix4giJz-EOS9hZeSD_czM1JvR7CcrVwZuOTV-aNp1n9-pYD0JJZ3IdSQNPURI_25d3phZLdnYfQaJq9RLsFIBbNmx-6EcPJHSH-FMswi8VXHjpjj5R-3QqOKX7416OM1anuBSzc_1jDl1P-dBZV492bbnLwIdvYwN-c6_NHT8qMEfug5VLFK4e_lSN7-LoydpC3BAsxQTNKTk1SoJPO4ZY_q0YRcZW_g/media?maxWidthPx=1600&maxHeightPx=900&key=AIzaSyBzWxvBK1wCvxm41Zi0P8NyHUvEUVxXXMI" class="w-10 h-10 rounded-full object-cover ring-2 ring-[color:var(--accent)]/40" alt="Logo Blick">
+        <span class="font-display text-2xl tracking-editorial">Blick<span class="text-[color:var(--accent)]">.</span></span>
+      </div>
+      <p class="mt-5 text-white/60 max-w-sm leading-relaxed">Estudio de cabello en Catalina Aldaz. Corte, color y tratamientos pensados con tiempo real.</p>
+    </div>
+    <div>
+      <div class="text-xs uppercase tracking-widest font-semibold text-[color:var(--accent)] mb-4">Sitio</div>
+      <ul class="space-y-2.5 text-white/70 text-sm">
+        <li><a href="./index.html" class="hover:text-[color:var(--accent)]">Inicio</a></li>
+        <li><a href="./servicios.html" class="hover:text-[color:var(--accent)]">Servicios</a></li>
+        <li><a href="./galeria.html" class="hover:text-[color:var(--accent)]">Galería</a></li>
+        <li><a href="./contacto.html" class="hover:text-[color:var(--accent)]">Contacto</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="text-xs uppercase tracking-widest font-semibold text-[color:var(--accent)] mb-4">Contacto</div>
+      <ul class="space-y-2.5 text-white/70 text-sm">
+        <li><a href="https://wa.me/593995020654" class="hover:text-[color:var(--accent)]">+593 99 502 0654</a></li>
+        <li>Catalina Aldaz N31-57</li>
+        <li>Quito, Ecuador</li>
+        <li class="pt-2 text-white/50">Lun–Sáb · Domingos cerrado</li>
+      </ul>
+    </div>
+  </div>
+  <div class="border-t border-white/10">
+    <div class="max-w-7xl mx-auto px-6 md:px-8 py-6 flex flex-wrap items-center justify-between gap-4 text-xs text-white/50">
+      <span>© 2026 Blick Peluquería. Todos los derechos reservados.</span>
+      <a href="https://blip.company" class="hover:text-[color:var(--accent)]">Hecho con Blip →</a>
+    </div>
+  </div>
+</footer>
+
+<!-- WHATSAPP FLOAT -->
+<a href="https://wa.me/593995020654?text=Hola%2C%20vi%20su%20sitio%20y%20quisiera%20reservar%20una%20cita%20en%20Blick%20Peluquer%C3%ADa" class="wa-float fixed bottom-6 right-6 z-50 w-14 h-14 rounded-full bg-[#25D366] grid place-items-center text-white hover:scale-110 transition-transform" aria-label="Escribir por WhatsApp">
+  <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor"><path d="M.057 24l1.687-6.163a11.867 11.867 0 0 1-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 0 1 8.413 3.488 11.824 11.824 0 0 1 3.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 0 1-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 0 0 1.52 5.263l-1.01 3.69 3.979-.652zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.174.198-.298.297-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.372-.01-.57-.01a1.1 1.1 0 0 0-.793.347c-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.71.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+</a>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"HairSalon","name":"Blick Peluquería","address":{"@type":"PostalAddress","streetAddress":"Catalina Aldaz N31-57","addressLocality":"Quito","postalCode":"170135","addressCountry":"EC"},"telephone":"+593995020654","url":"https://blickpeluqueria.com","aggregateRating":{"@type":"AggregateRating","ratingValue":"4.0","reviewCount":"164"}}
+</script>
+
+<script>
+(function(){
+  var io=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('revealed');io.unobserve(e.target);}});},{threshold:0.12,rootMargin:'0px 0px -40px 0px'});
+  document.querySelectorAll('[data-reveal]').forEach(function(el){io.observe(el);});
+  document.querySelectorAll('[data-carousel]').forEach(function(root){
+    var track=root.querySelector('[data-carousel-track]');if(!track)return;
+    var slides=Array.prototype.slice.call(track.children);if(slides.length<2)return;
+    var dotsHost=root.querySelector('[data-carousel-dots]'),dots=[];
+    if(dotsHost){slides.forEach(function(_,i){var dot=document.createElement('button');dot.type='button';dot.setAttribute('aria-label','Ir a imagen '+(i+1));dot.className='w-2 h-2 rounded-full bg-white/60 ring-1 ring-white/40 hover:bg-white transition';dot.addEventListener('click',function(){go(i);stop();start();});dotsHost.appendChild(dot);dots.push(dot);});}
+    var current=0,reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches,timer=null;
+    function syncDots(){dots.forEach(function(d,i){d.setAttribute('aria-current',i===current?'true':'false');d.className=(i===current)?'w-2.5 h-2.5 rounded-full bg-white shadow ring-1 ring-white/40 transition':'w-2 h-2 rounded-full bg-white/60 ring-1 ring-white/40 hover:bg-white transition';});}
+    function go(i){current=((i%slides.length)+slides.length)%slides.length;var w=slides[0].getBoundingClientRect().width;track.scrollTo({left:w*current,behavior:reduced?'auto':'smooth'});syncDots();}
+    function start(){if(!reduced)timer=setInterval(function(){go(current+1);},5000);}
+    function stop(){if(timer){clearInterval(timer);timer=null;}}
+    start();
+    root.addEventListener('mouseenter',stop);root.addEventListener('mouseleave',start);root.addEventListener('focusin',stop);root.addEventListener('focusout',start);
+    var prev=root.querySelector('[data-carousel-prev]'),next=root.querySelector('[data-carousel-next]');
+    if(prev)prev.addEventListener('click',function(){go(current-1);stop();start();});
+    if(next)next.addEventListener('click',function(){go(current+1);stop();start();});
+    track.addEventListener('scroll',function(){var w=slides[0].getBoundingClientRect().width;var idx=Math.round(track.scrollLeft/w);if(idx!==current){current=idx;syncDots();}});
+    syncDots();
+  });
+})();
+</script>
+
+<script data-mobile-nav-patch>
+(function(){
+  var btn = document.querySelector('[data-mobile-nav-toggle]');
+  var panel = document.getElementById('mobile-nav-panel');
+  if (!btn || !panel) return;
+  var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function open(){
+    panel.hidden = false;
+    requestAnimationFrame(function(){ panel.classList.add('is-open'); });
+    btn.setAttribute('aria-expanded', 'true');
+    document.body.style.overflow = 'hidden';
+  }
+  function close(){
+    btn.setAttribute('aria-expanded', 'false');
+    panel.classList.remove('is-open');
+    if (reduced) { panel.hidden = true; document.body.style.overflow = ''; return; }
+    setTimeout(function(){ panel.hidden = true; document.body.style.overflow = ''; }, 250);
+  }
+  btn.addEventListener('click', function(){ panel.hidden ? open() : close(); });
+  panel.addEventListener('click', function(e){
+    if (e.target.closest('[data-mobile-nav-close]') || e.target === panel) close();
+  });
+  document.addEventListener('keydown', function(e){
+    if (e.key === 'Escape' && !panel.hidden) close();
+  });
+  // Close overlay when clicking any link inside (same-page nav shouldn't leave it open).
+  panel.querySelectorAll('a[href]').forEach(function(a){
+    a.addEventListener('click', function(){ close(); });
+  });
+})();
+</script>
+</body>
+</html>
